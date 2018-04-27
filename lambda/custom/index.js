@@ -48,7 +48,7 @@ const StartWithUnknownPlayersIntentHandler = {
 			const randomRhymesArr = getRandomElement(RhymeTypesArr);
 			const randomRhyme = getRandomElement(randomRhymesArr);
 			
-			const speechText = randomRhyme + ` Spieler ${winnerIndex} ist dran!`;
+			const speechText = randomRhyme + attributes.t('INDEXED_DECISION_MESSAGE', winnerIndex);
 
 			return handlerInput.responseBuilder
 				.speak(speechText)
@@ -77,7 +77,7 @@ const StartWithNamedPlayersIntentHandler = {
 			const randomRhymesArr = getRandomElement(RhymeTypesArr);
 			const randomRhyme = getRandomElement(randomRhymesArr);
 			
-			const speechText = randomRhyme + ` ${winner} ist dran!`;
+			const speechText = randomRhyme + attributes.t('NAMED_DECISION_MESSAGE', winner);
 
 			return handlerInput.responseBuilder
 				.speak(speechText)
@@ -176,6 +176,8 @@ const languageStrings = {
     'de': {
         translation: {
             RHYMES: rhymes.rhymesDE,
+            NAMED_DECISION_MESSAGE: ' %s ist dran!',
+            INDEXED_DECISION_MESSAGE: ' Spieler %s ist dran!',
             SKILL_NAME: 'Ene Mene Muh',
             WELCOME_MESSAGE_SPEECH: 'Willkommen bei <phoneme alphabet="ipa" ph="eːne">Ene</phoneme> <phoneme alphabet="ipa" ph="meːne">Mene</phoneme> Muh.',
             WELCOME_MESSAGE_READ: 'Willkommen bei Ene Mene Muh.',
@@ -202,6 +204,39 @@ const languageStrings = {
 			],
             STOP_MESSAGE: 'Auf Wiedersehen!',
             ERROR_MESSAGE: 'Es tut mir leid. Ich habe im Moment technische Probleme.'
+        },
+    },
+    'en': {
+        translation: {
+            RHYMES: rhymes.rhymesEN,
+            NAMED_DECISION_MESSAGE: ' %s is it!',
+            INDEXED_DECISION_MESSAGE: ' Player %s is it!',
+            SKILL_NAME: 'Miny Moe',
+            WELCOME_MESSAGE_SPEECH: 'Welcome to Miny Moe.',
+            WELCOME_MESSAGE_READ: 'Welcome to Miny Moe.',
+            HELP_MESSAGE: [
+				'You can say: "Alexa, ask Miny Moe who wins."...what can I do for you?',
+				'Try this: "Play with Arny and Sly."...what can I do for you?',
+				'Try the following command: "Give me the winner among Daisy and Goofy."...what can I do for you?',
+				'Say: "Give me a random number up to 42."...what can I do for you?',
+				'Try this: "Decide whether Tom or Jerry is it."...what can I do for you?',
+				'You may say: "Who\'s turn is it?"...what can I do for you?',
+				'The following will work out as well... "Alexa, start Miny Moe and decide among Donald and Angela.?"...what can I do for you?',
+				'You could say: "Alexa, ask Miny Moe for decision among 7 players."...what can I do for you?',
+				'You can use the skill as follows: "Alexa, start Miny Moe and decide among Tarantino and Spielberg."...what can I do for you?',
+				'Say: "Alexa, start Miny Moe and tell me the winner among Eny and Miny and Moe."...what can I do for you?',
+				'Try: "Alexa, ask Miny Moe if Billy or Hilary does the dishes."...what can I do for you?',
+				'You may say: "Alexa, ask Miny Moe if Mary or John is it." or "Tell me the winner among Eny and Miny and Moe."...what can I do for you?',
+			],
+            HELP_REPROMPT: [
+				'Sorry, I didn\'t get it.',
+				'Could you repeat please?',
+				'Tell me what I can do you for.',
+				'I did not hear anything.',
+				'Do you need help?'
+			],
+            STOP_MESSAGE: 'Goodbye!',
+            ERROR_MESSAGE: 'I am sorry. I am having technical problems.'
         },
     }
 };
