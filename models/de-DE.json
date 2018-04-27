@@ -1,0 +1,194 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ene mene muh",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Beenden",
+            "Abbrechen"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Was kann ich tun",
+            "Was kann ich sagen",
+            "Frage was ich sagen kann",
+            "Hilf mir",
+            "Hilfe"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Stop"
+          ]
+        },
+        {
+          "name": "StartWithNamedPlayersIntent",
+          "slots": [
+            {
+              "name": "names",
+              "type": "AMAZON.DE_FIRST_NAME",
+              "samples": [
+                "{names} spielen mit",
+                "Es spielt {names} mit",
+                "Beginne mit {names}",
+                "Starte mit {names}",
+                "{names}"
+              ]
+            }
+          ],
+          "samples": [
+            "{names} den Rasen",
+            "{names} den Tisch",
+            "{names} den Müll",
+            "{names} den Abfall",
+            "{names} den",
+            "Showdown zwischen {names}",
+            "Wer dran ist",
+            "Mit {names}",
+            "Mit den Spielern {names}",
+            "Gib mir den Gewinner aus {names}",
+            "Wer ist dran",
+            "Wer gewinnt",
+            "Entscheide ob {names}",
+            "Ist {names} dran",
+            "Entscheide ob {names} dran ist",
+            "Spiele mit {names}",
+            "Frage ob {names} dran ist",
+            "Entscheide zwischen {names}",
+            "Mit den Kandidaten {names} ",
+            "Entscheidung zwischen {names}",
+            "{names} dran ist"
+          ]
+        },
+        {
+          "name": "StartWithUnknownPlayersIntent",
+          "slots": [
+            {
+              "name": "count",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "Mit {count}",
+                "{count}",
+                "Mit {count} Spielern",
+                "Starte mit {count} Spielern"
+              ]
+            }
+          ],
+          "samples": [
+            "Mit {count} Spielern",
+            "Welche Nummer",
+            "Zufallszahl",
+            "Gib mir eine Zufallszahl",
+            "Gib mir eine Zufallszahl bis {count}",
+            "Welche Spielerzahl",
+            "Welche Spielernummer",
+            "Welche Zahl gewinnt bis {count}",
+            "Welche Zahl gewinnt",
+            "Frage nach Zahl bis {count}",
+            "Welche Zahl beginnt",
+            "Frage nach Zufallszahl bis {count}"
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "StartWithUnknownPlayersIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "count",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1181319993901.499344791638"
+              }
+            }
+          ]
+        },
+        {
+          "name": "StartWithNamedPlayersIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "names",
+              "type": "AMAZON.DE_FIRST_NAME",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1293128334042.862228051760"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1181319993901.499344791638",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Wieviel Spieler können sich nicht entscheiden?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Wieviele Leute sind faul?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Wieviele haben keine Lust?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Wieviele Drückeberger sind dabei?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Mit wieviel Spielern möchtest du beginnen?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1293128334042.862228051760",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Wer spielt heute mit?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Sage mir, wer mitspielt."
+          },
+          {
+            "type": "PlainText",
+            "value": "Nenne mir die Teilnehmer."
+          },
+          {
+            "type": "PlainText",
+            "value": "Welche Drückeberger spielen mit?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Wer brauch Hilfe bei einer Entscheidung?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Wer kann sich nicht entscheiden?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Wer spielt mit?"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Alexa entscheidet zufällig, wer dran ist und präsentiert das Ergebnis zusammen mit einem lustigen Reim, der Erinnerungen weckt.",
+          "examplePhrases": [
+            "Alexa, starte Ene Mene Muh und entscheide zwischen Tom und Jerry",
+            "Alexa, frage Ene Mene Muh ob Anja oder Jens den Müll runter bringt",
+            "Alexa, frage Ene Mene Muh wer dran ist"
+          ],
+          "keywords": [
+            "Abzählreim",
+            "Entscheiden",
+            "Kinderreim",
+            "Kinderreime",
+            "Haushalt",
+            "Zufall",
+            "Zufallsgenerator",
+            "Lustig",
+            "Kindheit",
+            "Erinnerungen",
+            "Entscheidungshilfe",
+            "Haushalt",
+            "Organisation",
+            "Familie",
+            "Reime"
+          ],
+          "name": "Ene Mene Muh - Wer ist dran?",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dc57/083bf0af8dc047a5996dc462966bb789/APP_ICON?versionId=dY1tfoaTw0s2cJnmeQ8mQlSRrJFDDeni&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=FNezgkVZ6Sx0pWZwUSNh%2FK%2B2Kjg%3D",
+          "description": "Alexa entscheidet zufällig, wer dran ist und präsentiert das Ergebnis zusammen mit einem lustigen Reim, der Erinnerungen weckt.\n\nIhr kennt die Fragen aus dem Alltag: \nWer bringt den Müll raus? Wer räumt den Tisch ab? Wer macht den Abwasch?\nOder einfach: \"WER IST DRAN?\"\n\nWenn ihr euch nicht einigen oder entscheiden könnt, dann fragt Alexa und Sie entscheidet für euch mit einem lustigen Abzählreim, welcher euch bestimmt an eure Kindheit erinnert. Zudem kann auch nach einer Zufallszahl gefragt und damit eine Entscheidung getroffen werden.\n\nHier ein paar Beispiele, wie Ihr direkt beginnen könnt:\n- \"Alexa, Frage Ene Mene Muh wer dran ist.\"\n- \"Alexa, Frage Ene Mene Muh nach einer Entscheidung zwischen Jens und Anja.\"\n- \"Alexa, Starte Ene Mene Muh und Spiele mit Ben und Maria.\" \n- \"Alexa, Starte Ene Mene Muh und entscheide ob Franz oder Horst dran ist.\"\n- \"Alexa, Starte Ene Mene Muh und spiele mit 5 Spielern.\"\n- \"Alexa, Frage Ene Mene Muh ob Stefan oder Elke dran ist.\"\n- \"Alexa, Starte Ene Mene Muh und spiele mit Tom und Jerry\"\n\nHier ein paar Beispiele, die Ihr probieren könnt, wenn der Skill gestartet ist:\n- \"Spiele mit Pia und Stefan.\" \n- \"Spiele mit 5 Spielern.\"\n- \"Wer ist dran?\" \n- \"Wer gewinnt?\"\n- \"Ist Daniel oder Sara dran?\" \n- \"Entscheide ob Gabriel oder Michael den Müll runter bringt!\"\n- \"Entscheide zwischen 3 Spielern.\"\n- \"Entscheidung zwischen Spielberg und Tarantino.\"\n- \"Showdown zwischen Donald und Angela.\"\n- \"Gib mir den Gewinner aus 5 Spielern.\"\n\nWenn Ihr Hilfe benötigt, dann probiert: \"Starte Ene Mene Muh\" und sagt anschließend \"Hilfe\".\nFunktioniert etwas nicht richtig oder hast du eine Idee wie man diesen Skill noch besser machen könnte? Dann schreibe einfach an alexa@dev.buehl-online.de.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/561c/1d7c22b65f4c4895af3fffe94549ff29/APP_ICON_LARGE?versionId=WbV16RW9YRZr8YZIWI8AIuuOhnKuXeUt&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=dDaWrpJrgAwLSX8Bl05T%2F2bvqow%3D"
+        },
+        "en-US": {
+          "summary": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.",
+          "examplePhrases": [
+            "Alexa, open Miny Moe",
+            "Alexa, ask Miny Moe who is it",
+            "Alexa, ask Miny Moe to decide among Steve and Bill"
+          ],
+          "keywords": [
+            "counting",
+            "rhyme",
+            "nursery",
+            "decision",
+            "nurseryrhyme",
+            "household",
+            "housekeeping",
+            "random",
+            "randomgenerator",
+            "funny",
+            "memories",
+            "decision-making",
+            "organisation",
+            "family"
+          ],
+          "name": "Miny Moe - Who is it?",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/27f6/bdb33339335141608b472a1a567843cc/APP_ICON?versionId=ip02P_zQXfwBYfiDbrMxS9FR23VpErKl&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=E4Yr%2Bd8L6nzk8RnXaomJ3m1Y3rs%3D",
+          "description": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.\n\nYou know the questions from everyday life: \nWho's taking out the garbage? Who's clearing the table? Who does the dishes?\nOr simply: \"WHO IS IT?\"\n\nIf you can't agree or decide, then ask Alexa and she decides for you with a funny counting rhyme, which will certainly remind you of your childhood. You can also ask for a random number and make a decision.\n\nHere are a few examples of how you can start right away:\n- \"Alexa, ask Miny Moe who wins.\"\n- \"Alexa, ask Miny Moe if Mary or John is it.\"\n- \"Alexa, ask Miny Moe if Billy or Hilary does the dishes.\"\n- \"Alexa, start Miny Moe and tell me the winner among Eny and Miny and Moe.\"\n- \"Alexa, start Miny Moe and decide among Donald and Angela.\"\n- \"Alexa, ask Miny Moe for decision among 7 players.\"\n\nHere are a few examples you can try once the skill has started:\n- \"Play with Arny and Sly.\"\n- \"Give me the winner among Daisy and Goofy.\"\n- \"Give me a random number up to 42.\"\n- \"Decide whether Tom or Jerry is it.\"\n- \"With James and Franco.\"\n- \"Who's turn is it.\"\n\nIf you need help, try \"Start Miny Moe\" and then say \"Help\".\nTo provide feedback, do not hesitate to send us an e-mail to alexa@dev.buehl-online.de.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/14e8/6b7c6a9f7f0b4147991e59210d888007/APP_ICON_LARGE?versionId=ktyn.nc0WO2BkRhg7cWhZGnkcbh5enud&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=XBi%2BBKbNxMzLWRasqk8hCSIio3A%3D"
+        },
+        "en-CA": {
+          "summary": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.",
+          "examplePhrases": [
+            "Alexa, open Miny Moe",
+            "Alexa, ask Miny Moe who is it",
+            "Alexa, ask Miny Moe to decide among Steve and Bill"
+          ],
+          "keywords": [
+            "counting",
+            "rhyme",
+            "nursery",
+            "decision",
+            "nurseryrhyme",
+            "household",
+            "housekeeping",
+            "random",
+            "randomgenerator",
+            "funny",
+            "memories",
+            "decision-making",
+            "organisation",
+            "family"
+          ],
+          "name": "Miny Moe - Who is it?",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/dfc1/fa3f720396264b8c824ee7209cc928b2/APP_ICON?versionId=vEW3A4kOqHkc83cZ8VHuzFNZQZ_rUcNX&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=QLeNol6VNCnKQjPTCs2QvL27jFQ%3D",
+          "description": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.\n\nYou know the questions from everyday life: \nWho's taking out the garbage? Who's clearing the table? Who does the dishes?\nOr simply: \"WHO IS IT?\"\n\nIf you can't agree or decide, then ask Alexa and she decides for you with a funny counting rhyme, which will certainly remind you of your childhood. You can also ask for a random number and make a decision.\n\nHere are a few examples of how you can start right away:\n- \"Alexa, ask Miny Moe who wins.\"\n- \"Alexa, ask Miny Moe if Mary or John is it.\"\n- \"Alexa, ask Miny Moe if Billy or Hilary does the dishes.\"\n- \"Alexa, start Miny Moe and tell me the winner among Eny and Miny and Moe.\"\n- \"Alexa, start Miny Moe and decide among Donald and Angela.\"\n- \"Alexa, ask Miny Moe for decision among 7 players.\"\n\nHere are a few examples you can try once the skill has started:\n- \"Play with Arny and Sly.\"\n- \"Give me the winner among Daisy and Goofy.\"\n- \"Give me a random number up to 42.\"\n- \"Decide whether Tom or Jerry is it.\"\n- \"With James and Franco.\"\n- \"Who's turn is it.\"\n\nIf you need help, try \"Start Miny Moe\" and then say \"Help\".\nTo provide feedback, do not hesitate to send us an e-mail to alexa@dev.buehl-online.de.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9b92/a39a3222b0fb4640a67eeb5347eb0fb2/APP_ICON_LARGE?versionId=DRIEQrQfY9ER.9FEFIcqfd73q11GHU95&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=mruUTtaR8pR1OsQfssQGcj1OiY0%3D"
+        },
+        "en-IN": {
+          "summary": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.",
+          "examplePhrases": [
+            "Alexa, open Miny Moe",
+            "Alexa, ask Miny Moe who is it",
+            "Alexa, ask Miny Moe to decide among Bill and Steve"
+          ],
+          "keywords": [],
+          "name": "Miny Moe - Who is it?",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/4c1c/e6a6cfdd44f54517b15c628d32a0c554/APP_ICON?versionId=UhxwUr7iz2m6OEz4TdXEq9g7bEdxdv9Y&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=sa017OudHPBKrl5B1q11LuQOpU8%3D",
+          "description": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.\n\nYou know the questions from everyday life: \nWho's taking out the garbage? Who's clearing the table? Who does the dishes?\nOr simply: \"WHO IS IT?\"\n\nIf you can't agree or decide, then ask Alexa and she decides for you with a funny counting rhyme, which will certainly remind you of your childhood. You can also ask for a random number and make a decision.\n\nHere are a few examples of how you can start right away:\n- \"Alexa, ask Miny Moe who wins.\"\n- \"Alexa, ask Miny Moe if Mary or John is it.\"\n- \"Alexa, ask Miny Moe if Billy or Hilary does the dishes.\"\n- \"Alexa, start Miny Moe and tell me the winner among Eny and Miny and Moe.\"\n- \"Alexa, start Miny Moe and decide among Donald and Angela.\"\n- \"Alexa, ask Miny Moe for decision among 7 players.\"\n\nHere are a few examples you can try once the skill has started:\n- \"Play with Arny and Sly.\"\n- \"Give me the winner among Daisy and Goofy.\"\n- \"Give me a random number up to 42.\"\n- \"Decide whether Tom or Jerry is it.\"\n- \"With James and Franco.\"\n- \"Who's turn is it.\"\n\nIf you need help, try \"Start Miny Moe\" and then say \"Help\".\nTo provide feedback, do not hesitate to send us an e-mail to alexa@dev.buehl-online.de.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/357f/e68e25acd16049c993ec2ed286d7a153/APP_ICON_LARGE?versionId=E6r0aVzf1BqY2JOhnhweWluZ7OxVKQtP&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=mGbj2TzJn2wJ5gsdqEwODqVIHuk%3D"
+        },
+        "en-AU": {
+          "summary": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.",
+          "examplePhrases": [
+            "Alexa, open Miny Moe",
+            "Alexa, ask Miny Moe who is it",
+            "Alexa, ask Miny Moe to decide among Steve and Bill"
+          ],
+          "keywords": [
+            "counting",
+            "rhyme",
+            "nursery",
+            "decision",
+            "nurseryrhyme",
+            "household",
+            "housekeeping",
+            "random",
+            "randomgenerator",
+            "funny",
+            "memories",
+            "decision-making",
+            "organisation",
+            "family"
+          ],
+          "name": "Miny Moe - Who is it?",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/d743/3d949701828049e28c8da309d8138a5f/APP_ICON?versionId=yX2B1jfDqmqLPQNmRyvnI_gPp2NL7zcz&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=pwLTS0NZW7vvrPYfBBgugxz1%2B2Q%3D",
+          "description": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.\n\nYou know the questions from everyday life: \nWho's taking out the garbage? Who's clearing the table? Who does the dishes?\nOr simply: \"WHO IS IT?\"\n\nIf you can't agree or decide, then ask Alexa and she decides for you with a funny counting rhyme, which will certainly remind you of your childhood. You can also ask for a random number and make a decision.\n\nHere are a few examples of how you can start right away:\n- \"Alexa, ask Miny Moe who wins.\"\n- \"Alexa, ask Miny Moe if Mary or John is it.\"\n- \"Alexa, ask Miny Moe if Billy or Hilary does the dishes.\"\n- \"Alexa, start Miny Moe and tell me the winner among Eny and Miny and Moe.\"\n- \"Alexa, start Miny Moe and decide among Donald and Angela.\"\n- \"Alexa, ask Miny Moe for decision among 7 players.\"\n\nHere are a few examples you can try once the skill has started:\n- \"Play with Arny and Sly.\"\n- \"Give me the winner among Daisy and Goofy.\"\n- \"Give me a random number up to 42.\"\n- \"Decide whether Tom or Jerry is it.\"\n- \"With James and Franco.\"\n- \"Who's turn is it.\"\n\nIf you need help, try \"Start Miny Moe\" and then say \"Help\".\nTo provide feedback, do not hesitate to send us an e-mail to alexa@dev.buehl-online.de.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/f62c/776fd454c1844cff83bd070584da17bf/APP_ICON_LARGE?versionId=Vnz_T_.6kTH.tN9TZVWcBW8nhYgwXC_b&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=ypmpwn4IVFsKqcuKLlXLDUuxgjA%3D"
+        },
+        "en-GB": {
+          "summary": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.",
+          "examplePhrases": [
+            "Alexa, open Miny Moe",
+            "Alexa, ask Miny Moe who is it",
+            "Alexa, ask Miny Moe to decide among Steve and Bill"
+          ],
+          "keywords": [
+            "counting",
+            "rhyme",
+            "nursery",
+            "decision",
+            "nurseryrhyme",
+            "household",
+            "housekeeping",
+            "random",
+            "randomgenerator",
+            "funny",
+            "memories",
+            "decision-making",
+            "organisation",
+            "family"
+          ],
+          "name": "Miny Moe - Who is it?",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/98c7/00b9f54d281149a0a35d31f2e57f25a2/APP_ICON?versionId=0X_ApYFM8NAuFf0es6m9ctuY5ATt1qwy&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=RcqGL75805scRNQNGuc0%2F3Fpezk%3D",
+          "description": "Alexa randomly decides who it is and presents the result together with a funny rhyme that brings back memories.\n\nYou know the questions from everyday life: \nWho's taking out the garbage? Who's clearing the table? Who does the dishes?\nOr simply: \"WHO IS IT?\"\n\nIf you can't agree or decide, then ask Alexa and she decides for you with a funny counting rhyme, which will certainly remind you of your childhood. You can also ask for a random number and make a decision.\n\nHere are a few examples of how you can start right away:\n- \"Alexa, ask Miny Moe who wins.\"\n- \"Alexa, ask Miny Moe if Mary or John is it.\"\n- \"Alexa, ask Miny Moe if Billy or Hilary does the dishes.\"\n- \"Alexa, start Miny Moe and tell me the winner among Eny and Miny and Moe.\"\n- \"Alexa, start Miny Moe and decide among Donald and Angela.\"\n- \"Alexa, ask Miny Moe for decision among 7 players.\"\n\nHere are a few examples you can try once the skill has started:\n- \"Play with Arny and Sly.\"\n- \"Give me the winner among Daisy and Goofy.\"\n- \"Give me a random number up to 42.\"\n- \"Decide whether Tom or Jerry is it.\"\n- \"With James and Franco.\"\n- \"Who's turn is it.\"\n\nIf you need help, try \"Start Miny Moe\" and then say \"Help\".\nTo provide feedback, do not hesitate to send us an e-mail to alexa@dev.buehl-online.de.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/cef1/b0be3e325bde47848bdd01671974d3e7/APP_ICON_LARGE?versionId=mHANkzq5OYCMuhx9fShYVNNz_Qx8Z_db&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1524929455&Signature=MO3WhvfjiZJfFJ9ZL3t%2Fwt7w7rk%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No further instructions needed.",
+      "category": "GAMES",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda\\custom"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "sourceDir": "lambda\\custom"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "miny moe",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Exit",
+            "Cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "What can I say",
+            "What may I say",
+            "Ask what I can say",
+            "Help me",
+            "Help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "Stop"
+          ]
+        },
+        {
+          "name": "StartWithNamedPlayersIntent",
+          "slots": [
+            {
+              "name": "names",
+              "type": "AMAZON.GB_FIRST_NAME",
+              "samples": [
+                "There's a game between {names}",
+                "it's {names} with",
+                "Start with {names}",
+                "Begin with {names}",
+                "{names}"
+              ]
+            }
+          ],
+          "samples": [
+            "decision whether {names}",
+            "decide {names}",
+            "decide if {names}",
+            "Tell me the winner among {names}",
+            "With the players {names}",
+            "Who's turn",
+            "{names} the",
+            "{names} the dishes",
+            "{names} the rubbish",
+            "{names}",
+            "Showdown between {names}",
+            "Who is it",
+            "With {names}",
+            "With the partipicants {names}",
+            "Give me the winner among {names}",
+            "Who's turn is it",
+            "Who wins",
+            "Decide whether {names}",
+            "Is {names} it",
+            "Play with {names}",
+            "Ask whether {names} ",
+            "Decide among {names}",
+            "With the candidates {names} ",
+            "{names} is it"
+          ]
+        },
+        {
+          "name": "StartWithUnknownPlayersIntent",
+          "slots": [
+            {
+              "name": "count",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "Start with {count} players",
+                "With {count} players",
+                "With {count}",
+                "{count}"
+              ]
+            }
+          ],
+          "samples": [
+            "With {count} players",
+            "Which number wins",
+            "random number",
+            "Give me a random number",
+            "Give me a random number up to {count}",
+            "Which player number ",
+            "Which number wins up to {count}",
+            "Give me the number which wins",
+            "Ask for number up to {count}",
+            "Which number begins",
+            "Ask for random number up to {count}"
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "StartWithUnknownPlayersIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "count",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1181319993901.499344791638"
+              }
+            }
+          ]
+        },
+        {
+          "name": "StartWithNamedPlayersIntent",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "names",
+              "type": "AMAZON.GB_FIRST_NAME",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1293128334042.862228051760"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1181319993901.499344791638",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How many players are lazy?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many players do you want to start with?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many quitters are there?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many don't feel like it?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many players can't decide?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many players?"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1293128334042.862228051760",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Which quitters are involved?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Please name the participants."
+          },
+          {
+            "type": "PlainText",
+            "value": "Tell me who's in it."
+          },
+          {
+            "type": "PlainText",
+            "value": "Who's playing tonight?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Who's playing?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Who needs help with a decision?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Who can't decide?"
+          },
+          {
+            "type": "PlainText",
+            "value": "Who's in?"
+          }
+        ]
+      }
+    ]
+  }
+}
